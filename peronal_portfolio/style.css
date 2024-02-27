@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin sans', sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    
+    background-size: cover;
+    background-position: center;
+}
+.sachin{
+    width:  50%;
+    height: 100%;
+    top: -10px;
+    display: inline;
+    position: relative;
+    left: 50%;
+    border-radius: 50px;
+}
+.resume a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    display: inline;
+    position: relative;
+    font-weight: bold;
+    bottom: -50px;
+    left: 45%;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.resume a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.con a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    display: inline;
+    position: relative;
+    font-weight: bold;
+    bottom: -32px;
+    left: 10%;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.con a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    z-index: 2;
+}
+.portfolio{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: 0.4s;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    transform: translate(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.email form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.email form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.email form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 0px 5px #000,0px 0px 15px #858585;
+}
+.About{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #080808;
+}
+.About img{
+    height: 100%;
+    width: 50%;
+    margin-left: -70px;
+    border-radius: 50px;
+   opacity: 90%;
+}
+.text{
+    width: 550px;
+    margin-top: 30px;
+}
+.button{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.text h2{
+    color: rgb(239, 238, 238);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.text h5{
+    color: rgb(214, 64, 64);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.text p{
+    color: rgba(197, 161, 197, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.buttons{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.buttons:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.skills{
+    background-color: #282828;
+    width: 100%;
+    height: 70%;
+    display: inline-block;  
+    position: relative;
+}
+#h{
+   padding-top: 20px;
+   color: rgb(241, 241, 243);
+   padding-left: 12%;
+   position: relative;
+}
+#sp{
+    color: rgb(239, 217, 22);
+}
+.html{
+    position: relative;
+    padding-top: 8%;
+    padding-left: 10%;
+    display: inline-block;
+}
+h2{
+    padding-left: 28%;
+    padding-top: 2px;
+    color: aliceblue;
+}
+.css{
+    position: relative;
+    padding-top: 8%;
+    padding-left: 15%;
+    display: inline-block;
+}
+.js{
+    position: relative;
+    padding-top: 8%;
+    padding-left: 15%;
+    display: inline-block;
+}
+.react{
+    position: relative;
+    padding-top: 8%;
+    padding-left: 13%;
+    display: inline-block;
+}
+.service{
+    background: #383737;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    padding-left: 10%;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center; 
+}
+.card i{
+    font-size: 50px;
+    display: inline-block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contactts{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: inline-block;
+    padding-top: 8%;
+    padding-left: 30%;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactts p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contactts .hire{
+    background-color: #f9004d;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    margin-left: 18%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contactts .hire:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.profiles a{
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    text-decoration: none;
+}
+.profiles a:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.copy{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
